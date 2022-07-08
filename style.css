@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+hr {
+  width: 50%;
+  border-style: groove;
+  border-width: 3px 0 0 0;
+}
+
+.div1 {
+  padding-top: 55px;
+  background-color: #b8e2f6;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Texts */
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 90px;
+  color: rgb(0, 0, 0);
+  margin-top: -5px;
+}
+h2 {
+  font-family: Montserrat, sans-serif;
+  color: rgb(0, 140, 255);
+}
+h3 {
+  font-family: Montserrat, sans-serif;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  position: relative;
+  margin-top: -55px;
+}
+/* Scenery */
+.mountain2 {
+  height: 300px;
+  margin-top: -10px;
+}
+
+.cloud {
+  height: 100px;
+  width: 200px;
+  position: relative;
+  left: 300px;
+}
+.cloud2 {
+  height: 100px;
+  width: 200px;
+  position: relative;
+}
+.cloud3 {
+  height: 100px;
+  width: 200px;
+  position: absolute;
+  right: 400px;
+  top: 300px;
+}
+
+.div2 {
+  padding-top: 100px;
+  padding-bottom: 30px;
+  margin-top: 750px;
+  position: relative;
+  background-color: white;
+}
+.div3 {
+  margin: 80px auto auto auto;
+  width: 75%;
+  height: 200px;
+}
+.divl {
+  /* text-align: left; */
+  padding-left: 250px;
+  padding-right: 250px;
+}
+.divr {
+  /* text-align: right; */
+  padding-left: 250px;
+  padding-right: 250px;
+}
+.divb {
+  background-color: rgb(188, 188, 188);
+  height: 200px;
+  position: relative;
+}
+
+/* Profile */
+.myimage {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin-bottom: 100px;
+}
+.simage {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  float: left;
+}
+.simager {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  float: right;
+}
+.icons {
+  margin-top: 5%;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.icons:hover {
+  transition: 0s;
+  background-color: rgb(126, 171, 255);
+}
+p {
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(71, 71, 71);
+}
+footer {
+  font-family: Montserrat, sans-serif;
+  color: white;
+  position: absolute;
+  margin-top: 6%;
+  margin-left: 20%;
+}
